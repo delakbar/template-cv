@@ -1,0 +1,21 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.hero {
+  background: linear-gradient(to right, #1A374D, #1E90FF);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  transition: 0.3s;
+}
+
+.list-group-item:hover {
+  background-color: #f8f9fa;
+  transform: scale(1.02);
+  transition: 0.3s;
+}
